@@ -13,6 +13,7 @@
 		B797716A2CF54F7900DCB6E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B79771692CF54F7900DCB6E0 /* Preview Assets.xcassets */; };
 		B79771712CF54FE100DCB6E0 /* Tarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79771702CF54FE100DCB6E0 /* Tarea.swift */; };
 		B79771732CF5518800DCB6E0 /* ListaTareasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79771722CF5518800DCB6E0 /* ListaTareasView.swift */; };
+		B7A87B1A2CF5563F003D8007 /* DetalleTareaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A87B192CF5563F003D8007 /* DetalleTareaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		B79771692CF54F7900DCB6E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B79771702CF54FE100DCB6E0 /* Tarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea.swift; sourceTree = "<group>"; };
 		B79771722CF5518800DCB6E0 /* ListaTareasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaTareasView.swift; sourceTree = "<group>"; };
+		B7A87B192CF5563F003D8007 /* DetalleTareaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleTareaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B79771682CF54F7900DCB6E0 /* Preview Content */,
 				B79771702CF54FE100DCB6E0 /* Tarea.swift */,
 				B79771722CF5518800DCB6E0 /* ListaTareasView.swift */,
+				B7A87B192CF5563F003D8007 /* DetalleTareaView.swift */,
 			);
 			path = Sesion05;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A87B1A2CF5563F003D8007 /* DetalleTareaView.swift in Sources */,
 				B79771732CF5518800DCB6E0 /* ListaTareasView.swift in Sources */,
 				B79771652CF54F7700DCB6E0 /* ContentView.swift in Sources */,
 				B79771632CF54F7700DCB6E0 /* Sesion05App.swift in Sources */,

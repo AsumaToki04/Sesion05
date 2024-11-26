@@ -15,9 +15,13 @@ struct ListaTareasView: View {
         VStack {
             List {
                 ForEach(model.tareas) { item in
-                    VStack(alignment: .leading) {
-                        Text(item.titulo)
-                        Text(item.descripcion)
+                    NavigationLink(
+                        destination: DetalleTareaView(tarea: item)
+                    ) {
+                        VStack(alignment: .leading) {
+                            Text(item.titulo)
+                            Text(item.descripcion)
+                        }
                     }
                 }
             }
