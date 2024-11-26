@@ -28,10 +28,15 @@ struct ListaTareasView: View {
             .navigationTitle("Tareas")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {}) {
+                    Button(action: {
+                        mostrarFormulario = true
+                    }) {
                         Image(systemName: "plus")
                     }
                 }
+            }
+            .sheet(isPresented: $mostrarFormulario) {
+                RegistroTareaView(modelo: model, mostrarFormulario: $mostrarFormulario)
             }
         }
     }
