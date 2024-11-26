@@ -8,14 +8,19 @@
 import SwiftUI
 
 class ModeloTareas: ObservableObject {
-    @Published var tareas: [Tarea] = []
+    @Published var tareas: [Tarea] = [
+        Tarea(
+            titulo: "Comprar Frutas",
+            descripcion: "Comprar manzanas, fresas, peras.")
+    ]
 }
 
 struct ContentView: View {
+    @StateObject private var modelo = ModeloTareas()
+    
     var body: some View {
-        VStack {
-            
+        NavigationView {
+            ListaTareasView(model: modelo)
         }
-        .padding()
     }
 }

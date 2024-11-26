@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ListaTareasView: View {
-    @StateObject var model: ModeloTareas
+    @ObservedObject var model: ModeloTareas
     @State private var mostrarFormulario = false
     
     var body: some View {
